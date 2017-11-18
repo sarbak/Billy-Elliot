@@ -40,8 +40,8 @@ void loop()
 
  // CONTROLS ARE MESSED UP FOR SOME TESTING PURPOSES
  //servo_bottom.write(angle_bottom);                   //command to rotate the servo to the specified angle 
- servo_middle.write(90);
- servo_top.write(90);            
+ servo_middle.write(angle_top);
+ servo_top.write(angle_top);            
 
  //Serial.print(servo_bottom.read()); Serial.print(", ");
  Serial.print(servo_middle.read()); Serial.print(", ");
